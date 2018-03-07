@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <Button
+                    android:id="@+id/mIQY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="爱奇艺"
+                    app:layout_widthPercent="30%w"
+                    app:layout_heightPercent="30%w"
+                    android:background="@drawable/cornor_btn"
+                    android:textColor="@android:color/white"/>
+                <Button
+                    android:id="@+id/mTencent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="腾讯视频"
+                    app:layout_widthPercent="30%w"
+                    app:layout_heightPercent="30%w"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/cornor_btn1"
+                    android:textColor="@android:color/white"/>
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/mYouKu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="优酷"
+                    app:layout_heightPercent="30%w"
+                    app:layout_widthPercent="30%w"
+                    android:background="@drawable/cornor_btn2"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/mLeShi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="乐视"
+                    app:layout_heightPercent="30%w"
+                    app:layout_widthPercent="30%w"
+                    android:background="@drawable/cornor_btn3"
+                    android:textColor="@android:color/white"/>
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/mSouHu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cornor_btn4"
+                    android:text="搜狐"
+                    android:textColor="@android:color/white"
+                    app:layout_heightPercent="30%w"
+                    app:layout_widthPercent="30%w"/>
+
+                <Button
+                    android:id="@+id/mMangGuo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/cornor_btn6"
+                    android:text="芒果Tv"
+                    app:layout_heightPercent="30%w"
+                    app:layout_widthPercent="30%w"
+                    android:textColor="@android:color/white"/>
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/mCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="播放教程"
+                    app:layout_heightPercent="30%w"
+                    app:layout_widthPercent="30%w"
+                    android:background="@drawable/cornor_btn5"
+                    android:textColor="@android:color/white"/>
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mianze"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </ScrollView>
+</com.zhy.android.percent.support.PercentLinearLayout>

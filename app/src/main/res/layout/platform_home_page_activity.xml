@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:id="@+id/mBackLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/fanhui_new" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Vip播放"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="爱奇艺"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/mPlayTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="点击播放"
+            android:textColor="#1ED903"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/title_layout"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_bar_status"/>
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

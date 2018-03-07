@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="background_padding_left_right">5dp</dimen>
+    <dimen name="background_padding_top_bottom">10dp</dimen>
+</resources>
